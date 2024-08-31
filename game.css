@@ -1,0 +1,60 @@
+.image1{
+    height:80px;
+    width:500px;
+    padding-left: 20px;
+}
+.image2{
+    height:80px;
+}
+
+.heading{
+    font-family: "Roboto";
+    font-size:25px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.bg-container{
+    background-color: beige;
+    width:550px;
+    height:400px;
+}
+
+.card-container{
+    background-color: blue;
+    height: 300px;
+    
+}
+.heading2{
+    font-family: "Roboto";
+    font-size:35px;
+    padding-top: 10px;
+    color:white;
+    font-weight: bold;
+
+}
+
+.result-container{
+    background-color: white;
+    padding:20px;
+    width:300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.button{
+    background-color: darkcyan;
+    border-radius: 10px;
+    width:80px;
+    color: white;
+    font-family: "Roboto";
+}
+.result{
+    color:white;
+    font-family: "Roboto";
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    margin:10px;
+    width:250px;
+}

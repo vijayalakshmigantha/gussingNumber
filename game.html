@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="game.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="d-flex flex-column justify-content-center align-items-center">
+    <div class="bg-container">
+    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-game-img.png" class="image1"/>
+    <h1 class="heading">Findout the right number between 1 to 100</h1>
+    <div class="card-container d-flex flex-column justify-content-center align-items-center">
+        <h1 class="heading2">Guess The Number</h1>
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-number-img.png" class="image2"/>
+        <input type="text" class="result-container" id="inputEl"/>
+        <button class="button" onclick="checkResult()">Check</button>
+        <p id="resultEl" class="result"></p>
+    </div>
+    </div>
+    </div>
+<script src="/game.js"></script>
+</body>
+</html>
